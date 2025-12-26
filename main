@@ -15,7 +15,7 @@ sns.set(style="whitegrid")
 
 # 1. Load & Basic Overview
 
-df = pd.read_csv("C://Users/Soroush/Desktop/digital twin distruption/supply_chain_resilience_dataset.csv")  
+df = pd.read_csv("supply_chain_resilience_dataset.csv")  
 
 df['Order_Date'] = pd.to_datetime(df['Order_Date'], errors='coerce')
 df['Delivery_Date'] = pd.to_datetime(df['Delivery_Date'], errors='coerce')
